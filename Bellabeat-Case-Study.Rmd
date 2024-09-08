@@ -1,23 +1,159 @@
 {
  "cells": [
   {
+   "cell_type": "markdown",
+   "id": "722a5842",
+   "metadata": {
+    "papermill": {
+     "duration": 0.0072,
+     "end_time": "2024-09-08T08:04:48.496324",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:48.489124",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# <span style=\"color: #20beff;\">Bellabeat Case Study (Google Data Analytics Professional Certificate Capstone)</span>\n",
+    "\n",
+    "Urška Sršen and Sando Mur founded Bellabeat, a high-tech company that manufactures health-focused smart products. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. Since it was founded in .2013, Bellabeat has grown rapidly and quickly positioned  itself as a tech-driven wellness company for women.\n",
+    "\n",
+    "By 2016, Bellabeat had opened offices around the world and launched multiple products. Bellabeat products became available through a growing number of online retailers in addition to their own e-commerce channel on their website. The company has invested in traditional advertising media, such as radio, out-of-home billboards, print, and television, but focuses on digital marketing extensively. Bellabeat invests year-round in Google Search, maintaining active Facebook and Instagram pages, and consistently engages consumers on Twitter. Additionally, Bellabeat runs video ads on Youtube and display ads on the Google Display Network to support campaigns around key marketing dates.\n",
+    "\n",
+    "Sršen knows that an analysis of Bellabeat’s available consumer data would reveal more opportunities for growth. She has asked the marketing analytics team to focus on a Bellabeat product and analyze smart device usage data in order to gain insight into how people are already using their smart devices. Then, using this information, she would like high-level recommendations for how these trends can inform Bellabeat marketing strategy.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6fc346f1",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006144,
+     "end_time": "2024-09-08T08:04:48.508833",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:48.502689",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Scenario\n",
+    "\n",
+    "* I am a **Junior Data Analyst** working on the marketing analyst team at Bellabeat, a high-tech manufacturer of health-focused products for women. \n",
+    "* Bellabeat has the potential to become even larger than what it is in the global smart device market.\n",
+    "* I have been asked to  focus on one of Bellabeat’s products and analyze smart device data to gain insight into how consumers are using their smart devices\n",
+    "* Finally I present my analysis to the executive team along with my recommendations for improving Bellabeat's marketing strategy."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7d32a908",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006122,
+     "end_time": "2024-09-08T08:04:48.521231",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:48.515109",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# <span style=\"color: #20beff;\">The complete analysis process</span>\n",
+    "​\n",
+    "We perform the complete analysis process of this case study based of Google's six steps procedure for data analysis, namely:\n",
+    "* **Ask**: Identifying the business task, considering the key stakeholders\n",
+    "* **Prepare**: Preparing the dataset to be used including checking (ROCCC)\n",
+    "* **Process**: The cleaning, sorting and filtering process to prep the data for calculations and analysis\n",
+    "* **Analyze**: Putting the clean data to work, performing calculations and searching for trends or insights\n",
+    "* **Share**: Communicating your high-level insights and recommendations, this is where visualization comes into action\n",
+    "* **Act**: The final conclusion, how the team and business should apply you insights and what next steps can be taken"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b6c3d813",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006036,
+     "end_time": "2024-09-08T08:04:48.533388",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:48.527352",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# <span style=\"color: #20beff;\">1. ASK Phase </span>\n",
+    "\n",
+    "## Business Task\n",
+    "Help Bellabeat make better marketting decisions through analysis of fitness data from non bellabeat smart devices. In our case we use the **FitBit Fitness Tracker Data** \n",
+    "\n",
+    "## Key Stakeholders\n",
+    "* **Urška Sršen**: Bellabeat’s cofounder and Chief Creative Officer\n",
+    "* **Sando Mur**: Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a9f28ef7",
+   "metadata": {
+    "papermill": {
+     "duration": 0.005995,
+     "end_time": "2024-09-08T08:04:48.545538",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:48.539543",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# <span style=\"color: #20beff;\">2. PREPARE Phase </span>\n",
+    "\n",
+    "## Dataset Used:\n",
+    "The dataset used for this case study is the FitBit Fitness Tracker Dataset. \n",
+    "\n",
+    "## Accessibility: \n",
+    "It is an open-source dataset made available to the public domain.\n",
+    "\n",
+    "## Data collection description: \n",
+    "It was generated by respondents to a distributed survey via Amazon Mechanical Turk between 03.12.2016-05.12.2016. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c9cf937d",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006215,
+     "end_time": "2024-09-08T08:04:48.557857",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:48.551642",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Loading the required Packages"
+   ]
+  },
+  {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "7075208a",
+   "id": "29b177cd",
    "metadata": {
-    "_execution_state": "idle",
-    "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "execution": {
-     "iopub.execute_input": "2024-09-08T05:03:51.862864Z",
-     "iopub.status.busy": "2024-09-08T05:03:51.860234Z",
-     "iopub.status.idle": "2024-09-08T05:03:53.061180Z",
-     "shell.execute_reply": "2024-09-08T05:03:53.059179Z"
+     "iopub.execute_input": "2024-09-08T08:04:48.574620Z",
+     "iopub.status.busy": "2024-09-08T08:04:48.572337Z",
+     "iopub.status.idle": "2024-09-08T08:04:49.927835Z",
+     "shell.execute_reply": "2024-09-08T08:04:49.925823Z"
     },
     "papermill": {
-     "duration": 1.208417,
-     "end_time": "2024-09-08T05:03:53.063918",
+     "duration": 1.366488,
+     "end_time": "2024-09-08T08:04:49.930578",
      "exception": false,
-     "start_time": "2024-09-08T05:03:51.855501",
+     "start_time": "2024-09-08T08:04:48.564090",
      "status": "completed"
     },
     "tags": []
@@ -44,20 +180,202 @@
       "\u001b[31m✖\u001b[39m \u001b[34mdplyr\u001b[39m::\u001b[32mlag()\u001b[39m    masks \u001b[34mstats\u001b[39m::lag()\n",
       "\u001b[36mℹ\u001b[39m Use the conflicted package (\u001b[3m\u001b[34m<http://conflicted.r-lib.org/>\u001b[39m\u001b[23m) to force all conflicts to become errors\n"
      ]
+    }
+   ],
+   "source": [
+    "library(tidyverse)\n",
+    "library(lubridate)\n",
+    "library(dplyr)\n",
+    "library(ggplot2)\n",
+    "library(tidyr)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bcefae7d",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006489,
+     "end_time": "2024-09-08T08:04:49.943629",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:49.937140",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Reading the data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "db145a05",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:49.995391Z",
+     "iopub.status.busy": "2024-09-08T08:04:49.958502Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.131091Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.129146Z"
+    },
+    "papermill": {
+     "duration": 0.1838,
+     "end_time": "2024-09-08T08:04:50.133812",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:49.950012",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "daily_activity <- read.csv(\"/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv\")\n",
+    "daily_calories <- read.csv('/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyCalories_merged.csv')\n",
+    "daily_steps <- read.csv('/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailySteps_merged.csv')\n",
+    "daily_intensities <- read.csv('/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyIntensities_merged.csv')\n",
+    "daily_sleep <- read.csv('/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv')\n",
+    "hourly_intensities <- read.csv('/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/hourlyIntensities_merged.csv')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "de8cb7b1",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006584,
+     "end_time": "2024-09-08T08:04:50.147076",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.140492",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# <span style=\"color: #20beff;\">3. PROCESS and ANALYSE Phase </span>\n",
+    "​\n",
+    "## Tools Used: \n",
+    "I am using R markdown for this case study due to it's effective data analysis and processing libraries such as tidyverse, lubridate etc. It also supports for great visualization through libraries like ggplot2. I have done the same case study using Python as well, which is equally as great in terms of tools for this analysis task but not as effective for visualization, in terms of easo of use (personal opinion and not an established fact)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "50e1b453",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.163671Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.162001Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.222573Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.220585Z"
+    },
+    "papermill": {
+     "duration": 0.071706,
+     "end_time": "2024-09-08T08:04:50.225308",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.153602",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'data.frame':\t940 obs. of  15 variables:\n",
+      " $ Id                      : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
+      " $ ActivityDate            : chr  \"4/12/2016\" \"4/13/2016\" \"4/14/2016\" \"4/15/2016\" ...\n",
+      " $ TotalSteps              : int  13162 10735 10460 9762 12669 9705 13019 15506 10544 9819 ...\n",
+      " $ TotalDistance           : num  8.5 6.97 6.74 6.28 8.16 ...\n",
+      " $ TrackerDistance         : num  8.5 6.97 6.74 6.28 8.16 ...\n",
+      " $ LoggedActivitiesDistance: num  0 0 0 0 0 0 0 0 0 0 ...\n",
+      " $ VeryActiveDistance      : num  1.88 1.57 2.44 2.14 2.71 ...\n",
+      " $ ModeratelyActiveDistance: num  0.55 0.69 0.4 1.26 0.41 ...\n",
+      " $ LightActiveDistance     : num  6.06 4.71 3.91 2.83 5.04 ...\n",
+      " $ SedentaryActiveDistance : num  0 0 0 0 0 0 0 0 0 0 ...\n",
+      " $ VeryActiveMinutes       : int  25 21 30 29 36 38 42 50 28 19 ...\n",
+      " $ FairlyActiveMinutes     : int  13 19 11 34 10 20 16 31 12 8 ...\n",
+      " $ LightlyActiveMinutes    : int  328 217 181 209 221 164 233 264 205 211 ...\n",
+      " $ SedentaryMinutes        : int  728 776 1218 726 773 539 1149 775 818 838 ...\n",
+      " $ Calories                : int  1985 1797 1776 1745 1863 1728 1921 2035 1786 1775 ...\n"
+     ]
     },
     {
      "data": {
       "text/html": [
-       "'fitbit'"
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 6 × 15</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityDate</th><th scope=col>TotalSteps</th><th scope=col>TotalDistance</th><th scope=col>TrackerDistance</th><th scope=col>LoggedActivitiesDistance</th><th scope=col>VeryActiveDistance</th><th scope=col>ModeratelyActiveDistance</th><th scope=col>LightActiveDistance</th><th scope=col>SedentaryActiveDistance</th><th scope=col>VeryActiveMinutes</th><th scope=col>FairlyActiveMinutes</th><th scope=col>LightlyActiveMinutes</th><th scope=col>SedentaryMinutes</th><th scope=col>Calories</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td>13162</td><td>8.50</td><td>8.50</td><td>0</td><td>1.88</td><td>0.55</td><td>6.06</td><td>0</td><td>25</td><td>13</td><td>328</td><td> 728</td><td>1985</td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td>10735</td><td>6.97</td><td>6.97</td><td>0</td><td>1.57</td><td>0.69</td><td>4.71</td><td>0</td><td>21</td><td>19</td><td>217</td><td> 776</td><td>1797</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>10460</td><td>6.74</td><td>6.74</td><td>0</td><td>2.44</td><td>0.40</td><td>3.91</td><td>0</td><td>30</td><td>11</td><td>181</td><td>1218</td><td>1776</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td> 9762</td><td>6.28</td><td>6.28</td><td>0</td><td>2.14</td><td>1.26</td><td>2.83</td><td>0</td><td>29</td><td>34</td><td>209</td><td> 726</td><td>1745</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td>12669</td><td>8.16</td><td>8.16</td><td>0</td><td>2.71</td><td>0.41</td><td>5.04</td><td>0</td><td>36</td><td>10</td><td>221</td><td> 773</td><td>1863</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td> 9705</td><td>6.48</td><td>6.48</td><td>0</td><td>3.19</td><td>0.78</td><td>2.51</td><td>0</td><td>38</td><td>20</td><td>164</td><td> 539</td><td>1728</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
       ],
       "text/latex": [
-       "'fitbit'"
+       "A data.frame: 6 × 15\n",
+       "\\begin{tabular}{r|lllllllllllllll}\n",
+       "  & Id & ActivityDate & TotalSteps & TotalDistance & TrackerDistance & LoggedActivitiesDistance & VeryActiveDistance & ModeratelyActiveDistance & LightActiveDistance & SedentaryActiveDistance & VeryActiveMinutes & FairlyActiveMinutes & LightlyActiveMinutes & SedentaryMinutes & Calories\\\\\n",
+       "  & <dbl> & <chr> & <int> & <dbl> & <dbl> & <dbl> & <dbl> & <dbl> & <dbl> & <dbl> & <int> & <int> & <int> & <int> & <int>\\\\\n",
+       "\\hline\n",
+       "\t1 & 1503960366 & 4/12/2016 & 13162 & 8.50 & 8.50 & 0 & 1.88 & 0.55 & 6.06 & 0 & 25 & 13 & 328 &  728 & 1985\\\\\n",
+       "\t2 & 1503960366 & 4/13/2016 & 10735 & 6.97 & 6.97 & 0 & 1.57 & 0.69 & 4.71 & 0 & 21 & 19 & 217 &  776 & 1797\\\\\n",
+       "\t3 & 1503960366 & 4/14/2016 & 10460 & 6.74 & 6.74 & 0 & 2.44 & 0.40 & 3.91 & 0 & 30 & 11 & 181 & 1218 & 1776\\\\\n",
+       "\t4 & 1503960366 & 4/15/2016 &  9762 & 6.28 & 6.28 & 0 & 2.14 & 1.26 & 2.83 & 0 & 29 & 34 & 209 &  726 & 1745\\\\\n",
+       "\t5 & 1503960366 & 4/16/2016 & 12669 & 8.16 & 8.16 & 0 & 2.71 & 0.41 & 5.04 & 0 & 36 & 10 & 221 &  773 & 1863\\\\\n",
+       "\t6 & 1503960366 & 4/17/2016 &  9705 & 6.48 & 6.48 & 0 & 3.19 & 0.78 & 2.51 & 0 & 38 & 20 & 164 &  539 & 1728\\\\\n",
+       "\\end{tabular}\n"
       ],
       "text/markdown": [
-       "'fitbit'"
+       "\n",
+       "A data.frame: 6 × 15\n",
+       "\n",
+       "| <!--/--> | Id &lt;dbl&gt; | ActivityDate &lt;chr&gt; | TotalSteps &lt;int&gt; | TotalDistance &lt;dbl&gt; | TrackerDistance &lt;dbl&gt; | LoggedActivitiesDistance &lt;dbl&gt; | VeryActiveDistance &lt;dbl&gt; | ModeratelyActiveDistance &lt;dbl&gt; | LightActiveDistance &lt;dbl&gt; | SedentaryActiveDistance &lt;dbl&gt; | VeryActiveMinutes &lt;int&gt; | FairlyActiveMinutes &lt;int&gt; | LightlyActiveMinutes &lt;int&gt; | SedentaryMinutes &lt;int&gt; | Calories &lt;int&gt; |\n",
+       "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
+       "| 1 | 1503960366 | 4/12/2016 | 13162 | 8.50 | 8.50 | 0 | 1.88 | 0.55 | 6.06 | 0 | 25 | 13 | 328 |  728 | 1985 |\n",
+       "| 2 | 1503960366 | 4/13/2016 | 10735 | 6.97 | 6.97 | 0 | 1.57 | 0.69 | 4.71 | 0 | 21 | 19 | 217 |  776 | 1797 |\n",
+       "| 3 | 1503960366 | 4/14/2016 | 10460 | 6.74 | 6.74 | 0 | 2.44 | 0.40 | 3.91 | 0 | 30 | 11 | 181 | 1218 | 1776 |\n",
+       "| 4 | 1503960366 | 4/15/2016 |  9762 | 6.28 | 6.28 | 0 | 2.14 | 1.26 | 2.83 | 0 | 29 | 34 | 209 |  726 | 1745 |\n",
+       "| 5 | 1503960366 | 4/16/2016 | 12669 | 8.16 | 8.16 | 0 | 2.71 | 0.41 | 5.04 | 0 | 36 | 10 | 221 |  773 | 1863 |\n",
+       "| 6 | 1503960366 | 4/17/2016 |  9705 | 6.48 | 6.48 | 0 | 3.19 | 0.78 | 2.51 | 0 | 38 | 20 | 164 |  539 | 1728 |\n",
+       "\n"
       ],
       "text/plain": [
-       "[1] \"fitbit\""
+       "  Id         ActivityDate TotalSteps TotalDistance TrackerDistance\n",
+       "1 1503960366 4/12/2016    13162      8.50          8.50           \n",
+       "2 1503960366 4/13/2016    10735      6.97          6.97           \n",
+       "3 1503960366 4/14/2016    10460      6.74          6.74           \n",
+       "4 1503960366 4/15/2016     9762      6.28          6.28           \n",
+       "5 1503960366 4/16/2016    12669      8.16          8.16           \n",
+       "6 1503960366 4/17/2016     9705      6.48          6.48           \n",
+       "  LoggedActivitiesDistance VeryActiveDistance ModeratelyActiveDistance\n",
+       "1 0                        1.88               0.55                    \n",
+       "2 0                        1.57               0.69                    \n",
+       "3 0                        2.44               0.40                    \n",
+       "4 0                        2.14               1.26                    \n",
+       "5 0                        2.71               0.41                    \n",
+       "6 0                        3.19               0.78                    \n",
+       "  LightActiveDistance SedentaryActiveDistance VeryActiveMinutes\n",
+       "1 6.06                0                       25               \n",
+       "2 4.71                0                       21               \n",
+       "3 3.91                0                       30               \n",
+       "4 2.83                0                       29               \n",
+       "5 5.04                0                       36               \n",
+       "6 2.51                0                       38               \n",
+       "  FairlyActiveMinutes LightlyActiveMinutes SedentaryMinutes Calories\n",
+       "1 13                  328                   728             1985    \n",
+       "2 19                  217                   776             1797    \n",
+       "3 11                  181                  1218             1776    \n",
+       "4 34                  209                   726             1745    \n",
+       "5 10                  221                   773             1863    \n",
+       "6 20                  164                   539             1728    "
       ]
      },
      "metadata": {},
@@ -65,12 +383,842 @@
     }
    ],
    "source": [
+    "str(daily_activity)\n",
+    "head(daily_activity)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "9224da17",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.243500Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.241855Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.274980Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.273142Z"
+    },
+    "papermill": {
+     "duration": 0.044897,
+     "end_time": "2024-09-08T08:04:50.277666",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.232769",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'data.frame':\t940 obs. of  3 variables:\n",
+      " $ Id         : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
+      " $ ActivityDay: chr  \"4/12/2016\" \"4/13/2016\" \"4/14/2016\" \"4/15/2016\" ...\n",
+      " $ Calories   : int  1985 1797 1776 1745 1863 1728 1921 2035 1786 1775 ...\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 6 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityDay</th><th scope=col>Calories</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td>1985</td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td>1797</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>1776</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td>1745</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td>1863</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td>1728</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 6 × 3\n",
+       "\\begin{tabular}{r|lll}\n",
+       "  & Id & ActivityDay & Calories\\\\\n",
+       "  & <dbl> & <chr> & <int>\\\\\n",
+       "\\hline\n",
+       "\t1 & 1503960366 & 4/12/2016 & 1985\\\\\n",
+       "\t2 & 1503960366 & 4/13/2016 & 1797\\\\\n",
+       "\t3 & 1503960366 & 4/14/2016 & 1776\\\\\n",
+       "\t4 & 1503960366 & 4/15/2016 & 1745\\\\\n",
+       "\t5 & 1503960366 & 4/16/2016 & 1863\\\\\n",
+       "\t6 & 1503960366 & 4/17/2016 & 1728\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 6 × 3\n",
+       "\n",
+       "| <!--/--> | Id &lt;dbl&gt; | ActivityDay &lt;chr&gt; | Calories &lt;int&gt; |\n",
+       "|---|---|---|---|\n",
+       "| 1 | 1503960366 | 4/12/2016 | 1985 |\n",
+       "| 2 | 1503960366 | 4/13/2016 | 1797 |\n",
+       "| 3 | 1503960366 | 4/14/2016 | 1776 |\n",
+       "| 4 | 1503960366 | 4/15/2016 | 1745 |\n",
+       "| 5 | 1503960366 | 4/16/2016 | 1863 |\n",
+       "| 6 | 1503960366 | 4/17/2016 | 1728 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  Id         ActivityDay Calories\n",
+       "1 1503960366 4/12/2016   1985    \n",
+       "2 1503960366 4/13/2016   1797    \n",
+       "3 1503960366 4/14/2016   1776    \n",
+       "4 1503960366 4/15/2016   1745    \n",
+       "5 1503960366 4/16/2016   1863    \n",
+       "6 1503960366 4/17/2016   1728    "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "str(daily_calories)\n",
+    "head(daily_calories)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "61bc2a2c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.296373Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.294676Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.332792Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.331011Z"
+    },
+    "papermill": {
+     "duration": 0.050118,
+     "end_time": "2024-09-08T08:04:50.335383",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.285265",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'data.frame':\t940 obs. of  3 variables:\n",
+      " $ Id         : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
+      " $ ActivityDay: chr  \"4/12/2016\" \"4/13/2016\" \"4/14/2016\" \"4/15/2016\" ...\n",
+      " $ StepTotal  : int  13162 10735 10460 9762 12669 9705 13019 15506 10544 9819 ...\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 6 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityDay</th><th scope=col>StepTotal</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td>13162</td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td>10735</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>10460</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td> 9762</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td>12669</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td> 9705</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 6 × 3\n",
+       "\\begin{tabular}{r|lll}\n",
+       "  & Id & ActivityDay & StepTotal\\\\\n",
+       "  & <dbl> & <chr> & <int>\\\\\n",
+       "\\hline\n",
+       "\t1 & 1503960366 & 4/12/2016 & 13162\\\\\n",
+       "\t2 & 1503960366 & 4/13/2016 & 10735\\\\\n",
+       "\t3 & 1503960366 & 4/14/2016 & 10460\\\\\n",
+       "\t4 & 1503960366 & 4/15/2016 &  9762\\\\\n",
+       "\t5 & 1503960366 & 4/16/2016 & 12669\\\\\n",
+       "\t6 & 1503960366 & 4/17/2016 &  9705\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 6 × 3\n",
+       "\n",
+       "| <!--/--> | Id &lt;dbl&gt; | ActivityDay &lt;chr&gt; | StepTotal &lt;int&gt; |\n",
+       "|---|---|---|---|\n",
+       "| 1 | 1503960366 | 4/12/2016 | 13162 |\n",
+       "| 2 | 1503960366 | 4/13/2016 | 10735 |\n",
+       "| 3 | 1503960366 | 4/14/2016 | 10460 |\n",
+       "| 4 | 1503960366 | 4/15/2016 |  9762 |\n",
+       "| 5 | 1503960366 | 4/16/2016 | 12669 |\n",
+       "| 6 | 1503960366 | 4/17/2016 |  9705 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  Id         ActivityDay StepTotal\n",
+       "1 1503960366 4/12/2016   13162    \n",
+       "2 1503960366 4/13/2016   10735    \n",
+       "3 1503960366 4/14/2016   10460    \n",
+       "4 1503960366 4/15/2016    9762    \n",
+       "5 1503960366 4/16/2016   12669    \n",
+       "6 1503960366 4/17/2016    9705    "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "str(daily_steps)\n",
+    "head(daily_steps)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "ca812cfa",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.355508Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.353904Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.394591Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.392743Z"
+    },
+    "papermill": {
+     "duration": 0.052939,
+     "end_time": "2024-09-08T08:04:50.397054",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.344115",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'data.frame':\t940 obs. of  10 variables:\n",
+      " $ Id                      : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
+      " $ ActivityDay             : chr  \"4/12/2016\" \"4/13/2016\" \"4/14/2016\" \"4/15/2016\" ...\n",
+      " $ SedentaryMinutes        : int  728 776 1218 726 773 539 1149 775 818 838 ...\n",
+      " $ LightlyActiveMinutes    : int  328 217 181 209 221 164 233 264 205 211 ...\n",
+      " $ FairlyActiveMinutes     : int  13 19 11 34 10 20 16 31 12 8 ...\n",
+      " $ VeryActiveMinutes       : int  25 21 30 29 36 38 42 50 28 19 ...\n",
+      " $ SedentaryActiveDistance : num  0 0 0 0 0 0 0 0 0 0 ...\n",
+      " $ LightActiveDistance     : num  6.06 4.71 3.91 2.83 5.04 ...\n",
+      " $ ModeratelyActiveDistance: num  0.55 0.69 0.4 1.26 0.41 ...\n",
+      " $ VeryActiveDistance      : num  1.88 1.57 2.44 2.14 2.71 ...\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 6 × 10</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityDay</th><th scope=col>SedentaryMinutes</th><th scope=col>LightlyActiveMinutes</th><th scope=col>FairlyActiveMinutes</th><th scope=col>VeryActiveMinutes</th><th scope=col>SedentaryActiveDistance</th><th scope=col>LightActiveDistance</th><th scope=col>ModeratelyActiveDistance</th><th scope=col>VeryActiveDistance</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td> 728</td><td>328</td><td>13</td><td>25</td><td>0</td><td>6.06</td><td>0.55</td><td>1.88</td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td> 776</td><td>217</td><td>19</td><td>21</td><td>0</td><td>4.71</td><td>0.69</td><td>1.57</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>1218</td><td>181</td><td>11</td><td>30</td><td>0</td><td>3.91</td><td>0.40</td><td>2.44</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td> 726</td><td>209</td><td>34</td><td>29</td><td>0</td><td>2.83</td><td>1.26</td><td>2.14</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td> 773</td><td>221</td><td>10</td><td>36</td><td>0</td><td>5.04</td><td>0.41</td><td>2.71</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td> 539</td><td>164</td><td>20</td><td>38</td><td>0</td><td>2.51</td><td>0.78</td><td>3.19</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 6 × 10\n",
+       "\\begin{tabular}{r|llllllllll}\n",
+       "  & Id & ActivityDay & SedentaryMinutes & LightlyActiveMinutes & FairlyActiveMinutes & VeryActiveMinutes & SedentaryActiveDistance & LightActiveDistance & ModeratelyActiveDistance & VeryActiveDistance\\\\\n",
+       "  & <dbl> & <chr> & <int> & <int> & <int> & <int> & <dbl> & <dbl> & <dbl> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t1 & 1503960366 & 4/12/2016 &  728 & 328 & 13 & 25 & 0 & 6.06 & 0.55 & 1.88\\\\\n",
+       "\t2 & 1503960366 & 4/13/2016 &  776 & 217 & 19 & 21 & 0 & 4.71 & 0.69 & 1.57\\\\\n",
+       "\t3 & 1503960366 & 4/14/2016 & 1218 & 181 & 11 & 30 & 0 & 3.91 & 0.40 & 2.44\\\\\n",
+       "\t4 & 1503960366 & 4/15/2016 &  726 & 209 & 34 & 29 & 0 & 2.83 & 1.26 & 2.14\\\\\n",
+       "\t5 & 1503960366 & 4/16/2016 &  773 & 221 & 10 & 36 & 0 & 5.04 & 0.41 & 2.71\\\\\n",
+       "\t6 & 1503960366 & 4/17/2016 &  539 & 164 & 20 & 38 & 0 & 2.51 & 0.78 & 3.19\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 6 × 10\n",
+       "\n",
+       "| <!--/--> | Id &lt;dbl&gt; | ActivityDay &lt;chr&gt; | SedentaryMinutes &lt;int&gt; | LightlyActiveMinutes &lt;int&gt; | FairlyActiveMinutes &lt;int&gt; | VeryActiveMinutes &lt;int&gt; | SedentaryActiveDistance &lt;dbl&gt; | LightActiveDistance &lt;dbl&gt; | ModeratelyActiveDistance &lt;dbl&gt; | VeryActiveDistance &lt;dbl&gt; |\n",
+       "|---|---|---|---|---|---|---|---|---|---|---|\n",
+       "| 1 | 1503960366 | 4/12/2016 |  728 | 328 | 13 | 25 | 0 | 6.06 | 0.55 | 1.88 |\n",
+       "| 2 | 1503960366 | 4/13/2016 |  776 | 217 | 19 | 21 | 0 | 4.71 | 0.69 | 1.57 |\n",
+       "| 3 | 1503960366 | 4/14/2016 | 1218 | 181 | 11 | 30 | 0 | 3.91 | 0.40 | 2.44 |\n",
+       "| 4 | 1503960366 | 4/15/2016 |  726 | 209 | 34 | 29 | 0 | 2.83 | 1.26 | 2.14 |\n",
+       "| 5 | 1503960366 | 4/16/2016 |  773 | 221 | 10 | 36 | 0 | 5.04 | 0.41 | 2.71 |\n",
+       "| 6 | 1503960366 | 4/17/2016 |  539 | 164 | 20 | 38 | 0 | 2.51 | 0.78 | 3.19 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  Id         ActivityDay SedentaryMinutes LightlyActiveMinutes\n",
+       "1 1503960366 4/12/2016    728             328                 \n",
+       "2 1503960366 4/13/2016    776             217                 \n",
+       "3 1503960366 4/14/2016   1218             181                 \n",
+       "4 1503960366 4/15/2016    726             209                 \n",
+       "5 1503960366 4/16/2016    773             221                 \n",
+       "6 1503960366 4/17/2016    539             164                 \n",
+       "  FairlyActiveMinutes VeryActiveMinutes SedentaryActiveDistance\n",
+       "1 13                  25                0                      \n",
+       "2 19                  21                0                      \n",
+       "3 11                  30                0                      \n",
+       "4 34                  29                0                      \n",
+       "5 10                  36                0                      \n",
+       "6 20                  38                0                      \n",
+       "  LightActiveDistance ModeratelyActiveDistance VeryActiveDistance\n",
+       "1 6.06                0.55                     1.88              \n",
+       "2 4.71                0.69                     1.57              \n",
+       "3 3.91                0.40                     2.44              \n",
+       "4 2.83                1.26                     2.14              \n",
+       "5 5.04                0.41                     2.71              \n",
+       "6 2.51                0.78                     3.19              "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "str(daily_intensities)\n",
+    "head(daily_intensities)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "6f05736e",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.417157Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.415477Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.449504Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.447673Z"
+    },
+    "papermill": {
+     "duration": 0.046829,
+     "end_time": "2024-09-08T08:04:50.452110",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.405281",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'data.frame':\t413 obs. of  5 variables:\n",
+      " $ Id                : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
+      " $ SleepDay          : chr  \"4/12/2016 12:00:00 AM\" \"4/13/2016 12:00:00 AM\" \"4/15/2016 12:00:00 AM\" \"4/16/2016 12:00:00 AM\" ...\n",
+      " $ TotalSleepRecords : int  1 2 1 2 1 1 1 1 1 1 ...\n",
+      " $ TotalMinutesAsleep: int  327 384 412 340 700 304 360 325 361 430 ...\n",
+      " $ TotalTimeInBed    : int  346 407 442 367 712 320 377 364 384 449 ...\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 6 × 5</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>Id</th><th scope=col>SleepDay</th><th scope=col>TotalSleepRecords</th><th scope=col>TotalMinutesAsleep</th><th scope=col>TotalTimeInBed</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016 12:00:00 AM</td><td>1</td><td>327</td><td>346</td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016 12:00:00 AM</td><td>2</td><td>384</td><td>407</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/15/2016 12:00:00 AM</td><td>1</td><td>412</td><td>442</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/16/2016 12:00:00 AM</td><td>2</td><td>340</td><td>367</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/17/2016 12:00:00 AM</td><td>1</td><td>700</td><td>712</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/19/2016 12:00:00 AM</td><td>1</td><td>304</td><td>320</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 6 × 5\n",
+       "\\begin{tabular}{r|lllll}\n",
+       "  & Id & SleepDay & TotalSleepRecords & TotalMinutesAsleep & TotalTimeInBed\\\\\n",
+       "  & <dbl> & <chr> & <int> & <int> & <int>\\\\\n",
+       "\\hline\n",
+       "\t1 & 1503960366 & 4/12/2016 12:00:00 AM & 1 & 327 & 346\\\\\n",
+       "\t2 & 1503960366 & 4/13/2016 12:00:00 AM & 2 & 384 & 407\\\\\n",
+       "\t3 & 1503960366 & 4/15/2016 12:00:00 AM & 1 & 412 & 442\\\\\n",
+       "\t4 & 1503960366 & 4/16/2016 12:00:00 AM & 2 & 340 & 367\\\\\n",
+       "\t5 & 1503960366 & 4/17/2016 12:00:00 AM & 1 & 700 & 712\\\\\n",
+       "\t6 & 1503960366 & 4/19/2016 12:00:00 AM & 1 & 304 & 320\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 6 × 5\n",
+       "\n",
+       "| <!--/--> | Id &lt;dbl&gt; | SleepDay &lt;chr&gt; | TotalSleepRecords &lt;int&gt; | TotalMinutesAsleep &lt;int&gt; | TotalTimeInBed &lt;int&gt; |\n",
+       "|---|---|---|---|---|---|\n",
+       "| 1 | 1503960366 | 4/12/2016 12:00:00 AM | 1 | 327 | 346 |\n",
+       "| 2 | 1503960366 | 4/13/2016 12:00:00 AM | 2 | 384 | 407 |\n",
+       "| 3 | 1503960366 | 4/15/2016 12:00:00 AM | 1 | 412 | 442 |\n",
+       "| 4 | 1503960366 | 4/16/2016 12:00:00 AM | 2 | 340 | 367 |\n",
+       "| 5 | 1503960366 | 4/17/2016 12:00:00 AM | 1 | 700 | 712 |\n",
+       "| 6 | 1503960366 | 4/19/2016 12:00:00 AM | 1 | 304 | 320 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  Id         SleepDay              TotalSleepRecords TotalMinutesAsleep\n",
+       "1 1503960366 4/12/2016 12:00:00 AM 1                 327               \n",
+       "2 1503960366 4/13/2016 12:00:00 AM 2                 384               \n",
+       "3 1503960366 4/15/2016 12:00:00 AM 1                 412               \n",
+       "4 1503960366 4/16/2016 12:00:00 AM 2                 340               \n",
+       "5 1503960366 4/17/2016 12:00:00 AM 1                 700               \n",
+       "6 1503960366 4/19/2016 12:00:00 AM 1                 304               \n",
+       "  TotalTimeInBed\n",
+       "1 346           \n",
+       "2 407           \n",
+       "3 442           \n",
+       "4 367           \n",
+       "5 712           \n",
+       "6 320           "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "str(daily_sleep)\n",
+    "head(daily_sleep)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "e2324442",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.473283Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.471620Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.504652Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.502839Z"
+    },
+    "papermill": {
+     "duration": 0.04663,
+     "end_time": "2024-09-08T08:04:50.507439",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.460809",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'data.frame':\t22099 obs. of  4 variables:\n",
+      " $ Id              : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
+      " $ ActivityHour    : chr  \"4/12/2016 12:00:00 AM\" \"4/12/2016 1:00:00 AM\" \"4/12/2016 2:00:00 AM\" \"4/12/2016 3:00:00 AM\" ...\n",
+      " $ TotalIntensity  : int  20 8 7 0 0 0 0 0 13 30 ...\n",
+      " $ AverageIntensity: num  0.333 0.133 0.117 0 0 ...\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 6 × 4</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityHour</th><th scope=col>TotalIntensity</th><th scope=col>AverageIntensity</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016 12:00:00 AM</td><td>20</td><td>0.333333</td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/12/2016 1:00:00 AM </td><td> 8</td><td>0.133333</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/12/2016 2:00:00 AM </td><td> 7</td><td>0.116667</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/12/2016 3:00:00 AM </td><td> 0</td><td>0.000000</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/12/2016 4:00:00 AM </td><td> 0</td><td>0.000000</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/12/2016 5:00:00 AM </td><td> 0</td><td>0.000000</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 6 × 4\n",
+       "\\begin{tabular}{r|llll}\n",
+       "  & Id & ActivityHour & TotalIntensity & AverageIntensity\\\\\n",
+       "  & <dbl> & <chr> & <int> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t1 & 1503960366 & 4/12/2016 12:00:00 AM & 20 & 0.333333\\\\\n",
+       "\t2 & 1503960366 & 4/12/2016 1:00:00 AM  &  8 & 0.133333\\\\\n",
+       "\t3 & 1503960366 & 4/12/2016 2:00:00 AM  &  7 & 0.116667\\\\\n",
+       "\t4 & 1503960366 & 4/12/2016 3:00:00 AM  &  0 & 0.000000\\\\\n",
+       "\t5 & 1503960366 & 4/12/2016 4:00:00 AM  &  0 & 0.000000\\\\\n",
+       "\t6 & 1503960366 & 4/12/2016 5:00:00 AM  &  0 & 0.000000\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 6 × 4\n",
+       "\n",
+       "| <!--/--> | Id &lt;dbl&gt; | ActivityHour &lt;chr&gt; | TotalIntensity &lt;int&gt; | AverageIntensity &lt;dbl&gt; |\n",
+       "|---|---|---|---|---|\n",
+       "| 1 | 1503960366 | 4/12/2016 12:00:00 AM | 20 | 0.333333 |\n",
+       "| 2 | 1503960366 | 4/12/2016 1:00:00 AM  |  8 | 0.133333 |\n",
+       "| 3 | 1503960366 | 4/12/2016 2:00:00 AM  |  7 | 0.116667 |\n",
+       "| 4 | 1503960366 | 4/12/2016 3:00:00 AM  |  0 | 0.000000 |\n",
+       "| 5 | 1503960366 | 4/12/2016 4:00:00 AM  |  0 | 0.000000 |\n",
+       "| 6 | 1503960366 | 4/12/2016 5:00:00 AM  |  0 | 0.000000 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  Id         ActivityHour          TotalIntensity AverageIntensity\n",
+       "1 1503960366 4/12/2016 12:00:00 AM 20             0.333333        \n",
+       "2 1503960366 4/12/2016 1:00:00 AM   8             0.133333        \n",
+       "3 1503960366 4/12/2016 2:00:00 AM   7             0.116667        \n",
+       "4 1503960366 4/12/2016 3:00:00 AM   0             0.000000        \n",
+       "5 1503960366 4/12/2016 4:00:00 AM   0             0.000000        \n",
+       "6 1503960366 4/12/2016 5:00:00 AM   0             0.000000        "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "str(hourly_intensities)\n",
+    "head(hourly_intensities)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "683cc4a0",
+   "metadata": {
+    "papermill": {
+     "duration": 0.009151,
+     "end_time": "2024-09-08T08:04:50.526116",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.516965",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "We will have to correct the formatting of the column \n",
+    "* **ActivityDay**, in tables `daily_calories`, `daily_steps`, `daily_intensities`\n",
+    "* **ActivityDate** in `daily_activity` table and \n",
+    "* **DailySleep** in table `daily_sleep` from character type to date type. \n",
+    "* The **ActivityHour** column of the table `hourly_intensities` will need to bve formatted from chr to date and time format."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "9f3c315d",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.548015Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.546332Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.618576Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.616631Z"
+    },
+    "papermill": {
+     "duration": 0.08621,
+     "end_time": "2024-09-08T08:04:50.621441",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.535231",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "# changing the ActivityDate format for daily_activity\n",
+    "daily_activity$ActivityDate <- as.Date(daily_activity$ActivityDate, format = \"%m/%d/%y\")\n",
     "\n",
-    "library(tidyverse) \n",
+    "# changing the ActivityDay format for daily_calories\n",
+    "daily_calories$ActivityDay <- as.Date(daily_calories$ActivityDay, format = \"%m/%d/%y\")\n",
     "\n",
+    "# changing the ActivityDay format for daily_steps\n",
+    "daily_steps$ActivityDay <- as.Date(daily_steps$ActivityDay, format = '%m/%d/%y')\n",
     "\n",
-    "list.files(path = \"../input\")\n",
-    "\n"
+    "# changing the ActivityDay format for daily_intensities\n",
+    "daily_intensities$ActivityDay <- as.Date(daily_intensities$ActivityDay, format = \"%m/%d/%y\")\n",
+    "\n",
+    "# changing the SleepDay format for daily_sleep\n",
+    "daily_sleep$SleepDay <- as.Date(daily_sleep$SleepDay, format = \"%m/%d/%y\")\n",
+    "\n",
+    "# changing the ActivityHour format for hourly_intensities\n",
+    "hourly_intensities$ActivityHour <- as.POSIXct(hourly_intensities$ActivityHour, format = \"%m/%d/%Y %I:%M:%S %p\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "894e2807",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.643736Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.642118Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.678771Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.676953Z"
+    },
+    "papermill": {
+     "duration": 0.050249,
+     "end_time": "2024-09-08T08:04:50.681262",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.631013",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'data.frame':\t22099 obs. of  4 variables:\n",
+      " $ Id              : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
+      " $ ActivityHour    : POSIXct, format: \"2016-04-12 00:00:00\" \"2016-04-12 01:00:00\" ...\n",
+      " $ TotalIntensity  : int  20 8 7 0 0 0 0 0 13 30 ...\n",
+      " $ AverageIntensity: num  0.333 0.133 0.117 0 0 ...\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 6 × 4</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityHour</th><th scope=col>TotalIntensity</th><th scope=col>AverageIntensity</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>22094</th><td>8877689391</td><td>2016-05-12 09:00:00</td><td> 4</td><td>0.066667</td></tr>\n",
+       "\t<tr><th scope=row>22095</th><td>8877689391</td><td>2016-05-12 10:00:00</td><td>12</td><td>0.200000</td></tr>\n",
+       "\t<tr><th scope=row>22096</th><td>8877689391</td><td>2016-05-12 11:00:00</td><td>29</td><td>0.483333</td></tr>\n",
+       "\t<tr><th scope=row>22097</th><td>8877689391</td><td>2016-05-12 12:00:00</td><td>93</td><td>1.550000</td></tr>\n",
+       "\t<tr><th scope=row>22098</th><td>8877689391</td><td>2016-05-12 13:00:00</td><td> 6</td><td>0.100000</td></tr>\n",
+       "\t<tr><th scope=row>22099</th><td>8877689391</td><td>2016-05-12 14:00:00</td><td> 9</td><td>0.150000</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 6 × 4\n",
+       "\\begin{tabular}{r|llll}\n",
+       "  & Id & ActivityHour & TotalIntensity & AverageIntensity\\\\\n",
+       "  & <dbl> & <dttm> & <int> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t22094 & 8877689391 & 2016-05-12 09:00:00 &  4 & 0.066667\\\\\n",
+       "\t22095 & 8877689391 & 2016-05-12 10:00:00 & 12 & 0.200000\\\\\n",
+       "\t22096 & 8877689391 & 2016-05-12 11:00:00 & 29 & 0.483333\\\\\n",
+       "\t22097 & 8877689391 & 2016-05-12 12:00:00 & 93 & 1.550000\\\\\n",
+       "\t22098 & 8877689391 & 2016-05-12 13:00:00 &  6 & 0.100000\\\\\n",
+       "\t22099 & 8877689391 & 2016-05-12 14:00:00 &  9 & 0.150000\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 6 × 4\n",
+       "\n",
+       "| <!--/--> | Id &lt;dbl&gt; | ActivityHour &lt;dttm&gt; | TotalIntensity &lt;int&gt; | AverageIntensity &lt;dbl&gt; |\n",
+       "|---|---|---|---|---|\n",
+       "| 22094 | 8877689391 | 2016-05-12 09:00:00 |  4 | 0.066667 |\n",
+       "| 22095 | 8877689391 | 2016-05-12 10:00:00 | 12 | 0.200000 |\n",
+       "| 22096 | 8877689391 | 2016-05-12 11:00:00 | 29 | 0.483333 |\n",
+       "| 22097 | 8877689391 | 2016-05-12 12:00:00 | 93 | 1.550000 |\n",
+       "| 22098 | 8877689391 | 2016-05-12 13:00:00 |  6 | 0.100000 |\n",
+       "| 22099 | 8877689391 | 2016-05-12 14:00:00 |  9 | 0.150000 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "      Id         ActivityHour        TotalIntensity AverageIntensity\n",
+       "22094 8877689391 2016-05-12 09:00:00  4             0.066667        \n",
+       "22095 8877689391 2016-05-12 10:00:00 12             0.200000        \n",
+       "22096 8877689391 2016-05-12 11:00:00 29             0.483333        \n",
+       "22097 8877689391 2016-05-12 12:00:00 93             1.550000        \n",
+       "22098 8877689391 2016-05-12 13:00:00  6             0.100000        \n",
+       "22099 8877689391 2016-05-12 14:00:00  9             0.150000        "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "str(hourly_intensities)\n",
+    "tail(hourly_intensities)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "7e16ca96",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-08T08:04:50.704465Z",
+     "iopub.status.busy": "2024-09-08T08:04:50.702759Z",
+     "iopub.status.idle": "2024-09-08T08:04:50.762835Z",
+     "shell.execute_reply": "2024-09-08T08:04:50.761096Z"
+    },
+    "papermill": {
+     "duration": 0.074083,
+     "end_time": "2024-09-08T08:04:50.765352",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.691269",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "33"
+      ],
+      "text/latex": [
+       "33"
+      ],
+      "text/markdown": [
+       "33"
+      ],
+      "text/plain": [
+       "[1] 33"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/html": [
+       "33"
+      ],
+      "text/latex": [
+       "33"
+      ],
+      "text/markdown": [
+       "33"
+      ],
+      "text/plain": [
+       "[1] 33"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/html": [
+       "33"
+      ],
+      "text/latex": [
+       "33"
+      ],
+      "text/markdown": [
+       "33"
+      ],
+      "text/plain": [
+       "[1] 33"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/html": [
+       "33"
+      ],
+      "text/latex": [
+       "33"
+      ],
+      "text/markdown": [
+       "33"
+      ],
+      "text/plain": [
+       "[1] 33"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/html": [
+       "24"
+      ],
+      "text/latex": [
+       "24"
+      ],
+      "text/markdown": [
+       "24"
+      ],
+      "text/plain": [
+       "[1] 24"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/html": [
+       "33"
+      ],
+      "text/latex": [
+       "33"
+      ],
+      "text/markdown": [
+       "33"
+      ],
+      "text/plain": [
+       "[1] 33"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "n_distinct(daily_activity$Id)\n",
+    "n_distinct(daily_calories$Id)\n",
+    "n_distinct(daily_steps$Id)\n",
+    "n_distinct(daily_intensities$Id)\n",
+    "n_distinct(daily_sleep$Id)\n",
+    "n_distinct(hourly_intensities$Id)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0a7608f5",
+   "metadata": {
+    "papermill": {
+     "duration": 0.010875,
+     "end_time": "2024-09-08T08:04:50.787333",
+     "exception": false,
+     "start_time": "2024-09-08T08:04:50.776458",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "`daily_sleep` has only 24 participants' data. This shows some participants would rather not wear the device while sleeping. Considering a data set of only 33 paritcipants about 24% of people chose not to use the device at during sleep time.\n",
+    "\n",
+    "Bellabeat could provide notifications on their app, spreading the awareness about how tracking sleep data can be helpful in providing better insights about their body and help them in their health and fitness goals or journey."
    ]
   }
  ],
@@ -105,14 +1253,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.169148,
-   "end_time": "2024-09-08T05:03:53.186838",
+   "duration": 5.620438,
+   "end_time": "2024-09-08T08:04:50.920277",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-09-08T05:03:49.017690",
+   "start_time": "2024-09-08T08:04:45.299839",
    "version": "2.6.0"
   }
  },
