@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "33db13d2",
+   "id": "7075208a",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "execution": {
-     "iopub.execute_input": "2024-09-08T04:26:00.070879Z",
-     "iopub.status.busy": "2024-09-08T04:26:00.067896Z",
-     "iopub.status.idle": "2024-09-08T04:26:01.522853Z",
-     "shell.execute_reply": "2024-09-08T04:26:01.520768Z"
+     "iopub.execute_input": "2024-09-08T05:03:51.862864Z",
+     "iopub.status.busy": "2024-09-08T05:03:51.860234Z",
+     "iopub.status.idle": "2024-09-08T05:03:53.061180Z",
+     "shell.execute_reply": "2024-09-08T05:03:53.059179Z"
     },
     "papermill": {
-     "duration": 1.463533,
-     "end_time": "2024-09-08T04:26:01.526363",
+     "duration": 1.208417,
+     "end_time": "2024-09-08T05:03:53.063918",
      "exception": false,
-     "start_time": "2024-09-08T04:26:00.062830",
+     "start_time": "2024-09-08T05:03:51.855501",
      "status": "completed"
     },
     "tags": []
@@ -65,19 +65,12 @@
     }
    ],
    "source": [
-    "# This R environment comes with many helpful analytics packages installed\n",
-    "# It is defined by the kaggle/rstats Docker image: https://github.com/kaggle/docker-rstats\n",
-    "# For example, here's a helpful package to load\n",
     "\n",
-    "library(tidyverse) # metapackage of all tidyverse packages\n",
+    "library(tidyverse) \n",
     "\n",
-    "# Input data files are available in the read-only \"../input/\" directory\n",
-    "# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory\n",
     "\n",
     "list.files(path = \"../input\")\n",
-    "\n",
-    "# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n",
-    "# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session"
+    "\n"
    ]
   }
  ],
@@ -91,6 +84,7 @@
      "sourceType": "datasetVersion"
     }
    ],
+   "dockerImageVersionId": 30749,
    "isGpuEnabled": false,
    "isInternetEnabled": true,
    "language": "r",
@@ -111,14 +105,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.920013,
-   "end_time": "2024-09-08T04:26:01.651709",
+   "duration": 4.169148,
+   "end_time": "2024-09-08T05:03:53.186838",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-09-08T04:25:56.731696",
+   "start_time": "2024-09-08T05:03:49.017690",
    "version": "2.6.0"
   }
  },
