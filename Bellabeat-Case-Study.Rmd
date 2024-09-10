@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "b7bbafe4",
+   "id": "3a0a7e5e",
    "metadata": {
     "papermill": {
-     "duration": 0.008097,
-     "end_time": "2024-09-09T05:17:30.707147",
+     "duration": 0.006954,
+     "end_time": "2024-09-10T04:48:04.867531",
      "exception": false,
-     "start_time": "2024-09-09T05:17:30.699050",
+     "start_time": "2024-09-10T04:48:04.860577",
      "status": "completed"
     },
     "tags": []
@@ -26,13 +26,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "687b0999",
+   "id": "5e985ca5",
    "metadata": {
     "papermill": {
-     "duration": 0.007326,
-     "end_time": "2024-09-09T05:17:30.721682",
+     "duration": 0.006268,
+     "end_time": "2024-09-10T04:48:04.880246",
      "exception": false,
-     "start_time": "2024-09-09T05:17:30.714356",
+     "start_time": "2024-09-10T04:48:04.873978",
      "status": "completed"
     },
     "tags": []
@@ -48,13 +48,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b3105d72",
+   "id": "1d88adc0",
    "metadata": {
     "papermill": {
-     "duration": 0.007063,
-     "end_time": "2024-09-09T05:17:30.736042",
+     "duration": 0.006521,
+     "end_time": "2024-09-10T04:48:04.893030",
      "exception": false,
-     "start_time": "2024-09-09T05:17:30.728979",
+     "start_time": "2024-09-10T04:48:04.886509",
      "status": "completed"
     },
     "tags": []
@@ -73,13 +73,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7a448731",
+   "id": "adeddff3",
    "metadata": {
     "papermill": {
-     "duration": 0.007709,
-     "end_time": "2024-09-09T05:17:30.751153",
+     "duration": 0.006399,
+     "end_time": "2024-09-10T04:48:04.905693",
      "exception": false,
-     "start_time": "2024-09-09T05:17:30.743444",
+     "start_time": "2024-09-10T04:48:04.899294",
      "status": "completed"
     },
     "tags": []
@@ -97,13 +97,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a720a461",
+   "id": "4d26f074",
    "metadata": {
     "papermill": {
-     "duration": 0.0075,
-     "end_time": "2024-09-09T05:17:30.766316",
+     "duration": 0.006267,
+     "end_time": "2024-09-10T04:48:04.918247",
      "exception": false,
-     "start_time": "2024-09-09T05:17:30.758816",
+     "start_time": "2024-09-10T04:48:04.911980",
      "status": "completed"
     },
     "tags": []
@@ -123,13 +123,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ea0aa55e",
+   "id": "a90d61a8",
    "metadata": {
     "papermill": {
-     "duration": 0.007018,
-     "end_time": "2024-09-09T05:17:30.780447",
+     "duration": 0.006254,
+     "end_time": "2024-09-10T04:48:04.930912",
      "exception": false,
-     "start_time": "2024-09-09T05:17:30.773429",
+     "start_time": "2024-09-10T04:48:04.924658",
      "status": "completed"
     },
     "tags": []
@@ -141,19 +141,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "d994566e",
+   "id": "9489533b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:30.799423Z",
-     "iopub.status.busy": "2024-09-09T05:17:30.796988Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.314574Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.312263Z"
+     "iopub.execute_input": "2024-09-10T04:48:04.947953Z",
+     "iopub.status.busy": "2024-09-10T04:48:04.945656Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.328122Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.326246Z"
     },
     "papermill": {
-     "duration": 1.530082,
-     "end_time": "2024-09-09T05:17:32.317528",
+     "duration": 1.393734,
+     "end_time": "2024-09-10T04:48:06.330858",
      "exception": false,
-     "start_time": "2024-09-09T05:17:30.787446",
+     "start_time": "2024-09-10T04:48:04.937124",
      "status": "completed"
     },
     "tags": []
@@ -192,13 +192,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d7715730",
+   "id": "4a4c93b4",
    "metadata": {
     "papermill": {
-     "duration": 0.007384,
-     "end_time": "2024-09-09T05:17:32.332331",
+     "duration": 0.007148,
+     "end_time": "2024-09-10T04:48:06.345370",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.324947",
+     "start_time": "2024-09-10T04:48:06.338222",
      "status": "completed"
     },
     "tags": []
@@ -210,19 +210,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "2949e237",
+   "id": "bae347d7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.387486Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.351367Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.525510Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.523384Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.395863Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.360398Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.528113Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.526160Z"
     },
     "papermill": {
-     "duration": 0.187227,
-     "end_time": "2024-09-09T05:17:32.528686",
+     "duration": 0.179845,
+     "end_time": "2024-09-10T04:48:06.531551",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.341459",
+     "start_time": "2024-09-10T04:48:06.351706",
      "status": "completed"
     },
     "tags": []
@@ -239,13 +239,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a12275e3",
+   "id": "36e12589",
    "metadata": {
     "papermill": {
-     "duration": 0.007529,
-     "end_time": "2024-09-09T05:17:32.543868",
+     "duration": 0.00637,
+     "end_time": "2024-09-10T04:48:06.544666",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.536339",
+     "start_time": "2024-09-10T04:48:06.538296",
      "status": "completed"
     },
     "tags": []
@@ -260,19 +260,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "50a28c93",
+   "id": "b28ad2c2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.563500Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.561675Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.624957Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.622931Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.561553Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.559879Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.619726Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.617212Z"
     },
     "papermill": {
-     "duration": 0.076457,
-     "end_time": "2024-09-09T05:17:32.627742",
+     "duration": 0.071623,
+     "end_time": "2024-09-10T04:48:06.622875",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.551285",
+     "start_time": "2024-09-10T04:48:06.551252",
      "status": "completed"
     },
     "tags": []
@@ -390,19 +390,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "896a4e5d",
+   "id": "d6d871a5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.648135Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.646263Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.682894Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.680269Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.640688Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.639088Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.674128Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.671681Z"
     },
     "papermill": {
-     "duration": 0.049824,
-     "end_time": "2024-09-09T05:17:32.685762",
+     "duration": 0.047841,
+     "end_time": "2024-09-10T04:48:06.677654",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.635938",
+     "start_time": "2024-09-10T04:48:06.629813",
      "status": "completed"
     },
     "tags": []
@@ -487,19 +487,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "799f5fde",
+   "id": "56bff735",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.706182Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.704421Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.745558Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.743617Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.695950Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.694161Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.733354Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.731540Z"
     },
     "papermill": {
-     "duration": 0.054415,
-     "end_time": "2024-09-09T05:17:32.748409",
+     "duration": 0.051069,
+     "end_time": "2024-09-10T04:48:06.735840",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.693994",
+     "start_time": "2024-09-10T04:48:06.684771",
      "status": "completed"
     },
     "tags": []
@@ -584,19 +584,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "217dcf6e",
+   "id": "52dfabb1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.770007Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.768196Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.812610Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.810581Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.755399Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.752960Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.794935Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.792919Z"
     },
     "papermill": {
-     "duration": 0.058338,
-     "end_time": "2024-09-09T05:17:32.815577",
+     "duration": 0.054383,
+     "end_time": "2024-09-10T04:48:06.797634",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.757239",
+     "start_time": "2024-09-10T04:48:06.743251",
      "status": "completed"
     },
     "tags": []
@@ -702,19 +702,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "bd1f626e",
+   "id": "ace7617d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.837744Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.835941Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.873219Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.871206Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.817434Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.815726Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.852322Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.849704Z"
     },
     "papermill": {
-     "duration": 0.051512,
-     "end_time": "2024-09-09T05:17:32.876116",
+     "duration": 0.050107,
+     "end_time": "2024-09-10T04:48:06.855769",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.824604",
+     "start_time": "2024-09-10T04:48:06.805662",
      "status": "completed"
     },
     "tags": []
@@ -808,19 +808,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "3e3c41cf",
+   "id": "fba6dde4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.899312Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.897496Z",
-     "iopub.status.idle": "2024-09-09T05:17:32.933273Z",
-     "shell.execute_reply": "2024-09-09T05:17:32.931208Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.876152Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.874471Z",
+     "iopub.status.idle": "2024-09-10T04:48:06.911277Z",
+     "shell.execute_reply": "2024-09-10T04:48:06.908661Z"
     },
     "papermill": {
-     "duration": 0.050609,
-     "end_time": "2024-09-09T05:17:32.936361",
+     "duration": 0.050635,
+     "end_time": "2024-09-10T04:48:06.914758",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.885752",
+     "start_time": "2024-09-10T04:48:06.864123",
      "status": "completed"
     },
     "tags": []
@@ -905,13 +905,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ee19f37f",
+   "id": "d732166e",
    "metadata": {
     "papermill": {
-     "duration": 0.01005,
-     "end_time": "2024-09-09T05:17:32.957212",
+     "duration": 0.008677,
+     "end_time": "2024-09-10T04:48:06.932189",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.947162",
+     "start_time": "2024-09-10T04:48:06.923512",
      "status": "completed"
     },
     "tags": []
@@ -927,19 +927,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "8396c128",
+   "id": "99fca754",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:32.982017Z",
-     "iopub.status.busy": "2024-09-09T05:17:32.980077Z",
-     "iopub.status.idle": "2024-09-09T05:17:33.056716Z",
-     "shell.execute_reply": "2024-09-09T05:17:33.054449Z"
+     "iopub.execute_input": "2024-09-10T04:48:06.953641Z",
+     "iopub.status.busy": "2024-09-10T04:48:06.951940Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.024403Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.022517Z"
     },
     "papermill": {
-     "duration": 0.092292,
-     "end_time": "2024-09-09T05:17:33.059693",
+     "duration": 0.087184,
+     "end_time": "2024-09-10T04:48:07.027980",
      "exception": false,
-     "start_time": "2024-09-09T05:17:32.967401",
+     "start_time": "2024-09-10T04:48:06.940796",
      "status": "completed"
     },
     "tags": []
@@ -947,19 +947,19 @@
    "outputs": [],
    "source": [
     "# changing the ActivityDate format for daily_activity\n",
-    "daily_activity$ActivityDate <- as.Date(daily_activity$ActivityDate, format = \"%m/%d/%y\")\n",
+    "daily_activity$ActivityDate <- as.Date(daily_activity$ActivityDate, format = \"%m/%d/%Y\")\n",
     "\n",
     "# changing the ActivityDay format for daily_calories\n",
-    "daily_calories$ActivityDay <- as.Date(daily_calories$ActivityDay, format = \"%m/%d/%y\")\n",
+    "daily_calories$ActivityDay <- as.Date(daily_calories$ActivityDay, format = \"%m/%d/%Y\")\n",
     "\n",
     "# changing the ActivityDay format for daily_steps\n",
-    "daily_steps$ActivityDay <- as.Date(daily_steps$ActivityDay, format = '%m/%d/%y')\n",
+    "daily_steps$ActivityDay <- as.Date(daily_steps$ActivityDay, format = '%m/%d/%Y')\n",
     "\n",
     "# changing the ActivityDay format for daily_intensities\n",
-    "daily_intensities$ActivityDay <- as.Date(daily_intensities$ActivityDay, format = \"%m/%d/%y\")\n",
+    "daily_intensities$ActivityDay <- as.Date(daily_intensities$ActivityDay, format = \"%m/%d/%Y\")\n",
     "\n",
     "# changing the SleepDay format for daily_sleep\n",
-    "daily_sleep$SleepDay <- as.Date(daily_sleep$SleepDay, format = \"%m/%d/%y\")\n",
+    "daily_sleep$SleepDay <- as.Date(daily_sleep$SleepDay, format = \"%m/%d/%Y\")\n",
     "\n",
     "# changing the ActivityHour format for hourly_intensities\n",
     "hourly_intensities$ActivityHour <- as.POSIXct(hourly_intensities$ActivityHour, format = \"%m/%d/%Y %I:%M:%S %p\")"
@@ -968,117 +968,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "d47c6de1",
+   "id": "8e5a9239",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:33.084591Z",
-     "iopub.status.busy": "2024-09-09T05:17:33.082553Z",
-     "iopub.status.idle": "2024-09-09T05:17:33.122374Z",
-     "shell.execute_reply": "2024-09-09T05:17:33.120389Z"
+     "iopub.execute_input": "2024-09-10T04:48:07.048610Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.046907Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.099428Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.097133Z"
     },
     "papermill": {
-     "duration": 0.055893,
-     "end_time": "2024-09-09T05:17:33.126127",
+     "duration": 0.06623,
+     "end_time": "2024-09-10T04:48:07.102613",
      "exception": false,
-     "start_time": "2024-09-09T05:17:33.070234",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "'data.frame':\t22099 obs. of  4 variables:\n",
-      " $ Id              : num  1.5e+09 1.5e+09 1.5e+09 1.5e+09 1.5e+09 ...\n",
-      " $ ActivityHour    : POSIXct, format: \"2016-04-12 00:00:00\" \"2016-04-12 01:00:00\" ...\n",
-      " $ TotalIntensity  : int  20 8 7 0 0 0 0 0 13 30 ...\n",
-      " $ AverageIntensity: num  0.333 0.133 0.117 0 0 ...\n"
-     ]
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 4</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityHour</th><th scope=col>TotalIntensity</th><th scope=col>AverageIntensity</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>22094</th><td>8877689391</td><td>2016-05-12 09:00:00</td><td> 4</td><td>0.066667</td></tr>\n",
-       "\t<tr><th scope=row>22095</th><td>8877689391</td><td>2016-05-12 10:00:00</td><td>12</td><td>0.200000</td></tr>\n",
-       "\t<tr><th scope=row>22096</th><td>8877689391</td><td>2016-05-12 11:00:00</td><td>29</td><td>0.483333</td></tr>\n",
-       "\t<tr><th scope=row>22097</th><td>8877689391</td><td>2016-05-12 12:00:00</td><td>93</td><td>1.550000</td></tr>\n",
-       "\t<tr><th scope=row>22098</th><td>8877689391</td><td>2016-05-12 13:00:00</td><td> 6</td><td>0.100000</td></tr>\n",
-       "\t<tr><th scope=row>22099</th><td>8877689391</td><td>2016-05-12 14:00:00</td><td> 9</td><td>0.150000</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 4\n",
-       "\\begin{tabular}{r|llll}\n",
-       "  & Id & ActivityHour & TotalIntensity & AverageIntensity\\\\\n",
-       "  & <dbl> & <dttm> & <int> & <dbl>\\\\\n",
-       "\\hline\n",
-       "\t22094 & 8877689391 & 2016-05-12 09:00:00 &  4 & 0.066667\\\\\n",
-       "\t22095 & 8877689391 & 2016-05-12 10:00:00 & 12 & 0.200000\\\\\n",
-       "\t22096 & 8877689391 & 2016-05-12 11:00:00 & 29 & 0.483333\\\\\n",
-       "\t22097 & 8877689391 & 2016-05-12 12:00:00 & 93 & 1.550000\\\\\n",
-       "\t22098 & 8877689391 & 2016-05-12 13:00:00 &  6 & 0.100000\\\\\n",
-       "\t22099 & 8877689391 & 2016-05-12 14:00:00 &  9 & 0.150000\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 4\n",
-       "\n",
-       "| <!--/--> | Id &lt;dbl&gt; | ActivityHour &lt;dttm&gt; | TotalIntensity &lt;int&gt; | AverageIntensity &lt;dbl&gt; |\n",
-       "|---|---|---|---|---|\n",
-       "| 22094 | 8877689391 | 2016-05-12 09:00:00 |  4 | 0.066667 |\n",
-       "| 22095 | 8877689391 | 2016-05-12 10:00:00 | 12 | 0.200000 |\n",
-       "| 22096 | 8877689391 | 2016-05-12 11:00:00 | 29 | 0.483333 |\n",
-       "| 22097 | 8877689391 | 2016-05-12 12:00:00 | 93 | 1.550000 |\n",
-       "| 22098 | 8877689391 | 2016-05-12 13:00:00 |  6 | 0.100000 |\n",
-       "| 22099 | 8877689391 | 2016-05-12 14:00:00 |  9 | 0.150000 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "      Id         ActivityHour        TotalIntensity AverageIntensity\n",
-       "22094 8877689391 2016-05-12 09:00:00  4             0.066667        \n",
-       "22095 8877689391 2016-05-12 10:00:00 12             0.200000        \n",
-       "22096 8877689391 2016-05-12 11:00:00 29             0.483333        \n",
-       "22097 8877689391 2016-05-12 12:00:00 93             1.550000        \n",
-       "22098 8877689391 2016-05-12 13:00:00  6             0.100000        \n",
-       "22099 8877689391 2016-05-12 14:00:00  9             0.150000        "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "str(hourly_intensities)\n",
-    "tail(hourly_intensities)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 11,
-   "id": "25d86d7a",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:33.151221Z",
-     "iopub.status.busy": "2024-09-09T05:17:33.149334Z",
-     "iopub.status.idle": "2024-09-09T05:17:33.217356Z",
-     "shell.execute_reply": "2024-09-09T05:17:33.215318Z"
-    },
-    "papermill": {
-     "duration": 0.083416,
-     "end_time": "2024-09-09T05:17:33.220137",
-     "exception": false,
-     "start_time": "2024-09-09T05:17:33.136721",
+     "start_time": "2024-09-10T04:48:07.036383",
      "status": "completed"
     },
     "tags": []
@@ -1204,13 +1106,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2a29fc4f",
+   "id": "5ed63cc1",
    "metadata": {
     "papermill": {
-     "duration": 0.011656,
-     "end_time": "2024-09-09T05:17:33.243369",
+     "duration": 0.009249,
+     "end_time": "2024-09-10T04:48:07.121117",
      "exception": false,
-     "start_time": "2024-09-09T05:17:33.231713",
+     "start_time": "2024-09-10T04:48:07.111868",
      "status": "completed"
     },
     "tags": []
@@ -1223,20 +1125,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
-   "id": "605e542d",
+   "execution_count": 11,
+   "id": "9015b2c0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:33.270437Z",
-     "iopub.status.busy": "2024-09-09T05:17:33.268583Z",
-     "iopub.status.idle": "2024-09-09T05:17:33.298732Z",
-     "shell.execute_reply": "2024-09-09T05:17:33.296680Z"
+     "iopub.execute_input": "2024-09-10T04:48:07.143700Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.141700Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.190360Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.187393Z"
     },
     "papermill": {
-     "duration": 0.046657,
-     "end_time": "2024-09-09T05:17:33.301618",
+     "duration": 0.063399,
+     "end_time": "2024-09-10T04:48:07.193679",
      "exception": false,
-     "start_time": "2024-09-09T05:17:33.254961",
+     "start_time": "2024-09-10T04:48:07.130280",
      "status": "completed"
     },
     "tags": []
@@ -1281,20 +1183,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
-   "id": "3b31d8c3",
+   "execution_count": 12,
+   "id": "47a49929",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-09-09T05:17:33.329515Z",
-     "iopub.status.busy": "2024-09-09T05:17:33.327648Z",
-     "iopub.status.idle": "2024-09-09T05:17:33.355470Z",
-     "shell.execute_reply": "2024-09-09T05:17:33.353443Z"
+     "iopub.execute_input": "2024-09-10T04:48:07.216522Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.214837Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.241681Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.239342Z"
     },
     "papermill": {
-     "duration": 0.04492,
-     "end_time": "2024-09-09T05:17:33.358371",
+     "duration": 0.041382,
+     "end_time": "2024-09-10T04:48:07.244685",
      "exception": false,
-     "start_time": "2024-09-09T05:17:33.313451",
+     "start_time": "2024-09-10T04:48:07.203303",
      "status": "completed"
     },
     "tags": []
@@ -1331,13 +1233,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6a956d4c",
+   "id": "c0fd68e9",
    "metadata": {
     "papermill": {
-     "duration": 0.01209,
-     "end_time": "2024-09-09T05:17:33.382566",
+     "duration": 0.009886,
+     "end_time": "2024-09-10T04:48:07.264248",
      "exception": false,
-     "start_time": "2024-09-09T05:17:33.370476",
+     "start_time": "2024-09-10T04:48:07.254362",
      "status": "completed"
     },
     "tags": []
@@ -1349,6 +1251,413 @@
     "* The average sedentary minutes is around 991 minutes which is quite a lot and can have adverse health effects on the people in the long run.\n",
     "* The average sleep time of participants of the survey were just less than 7 hours, and they slept once a day."
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6f41648b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.009521,
+     "end_time": "2024-09-10T04:48:07.283473",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.273952",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "We can find the days, people walked most steps and remained most active. This can help the company strategise it's marketting notifications for the mobile app."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "b2df70e2",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-10T04:48:07.306818Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.305020Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.350302Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.348403Z"
+    },
+    "papermill": {
+     "duration": 0.060502,
+     "end_time": "2024-09-10T04:48:07.353750",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.293248",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "steps_by_weekday <- daily_activity %>%\n",
+    "    mutate(WeekDay = weekdays(ActivityDate))\n",
+    "\n",
+    "steps_by_weekday <- steps_by_weekday %>%\n",
+    "    group_by(WeekDay) %>%\n",
+    "    summarize(AverageDailySteps = mean(TotalSteps), \n",
+    "              AverageDailyActivity = mean(VeryActiveMinutes + FairlyActiveMinutes), \n",
+    "              DailyInactivity = mean(SedentaryMinutes))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "f0e87380",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-10T04:48:07.377538Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.375862Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.408543Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.405570Z"
+    },
+    "papermill": {
+     "duration": 0.047927,
+     "end_time": "2024-09-10T04:48:07.411851",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.363924",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 7 × 4</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>WeekDay</th><th scope=col>AverageDailySteps</th><th scope=col>AverageDailyActivity</th><th scope=col>DailyInactivity</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>Friday   </td><td>7448.230</td><td>32.16667</td><td>1000.3095</td></tr>\n",
+       "\t<tr><td>Monday   </td><td>7780.867</td><td>37.10833</td><td>1027.9417</td></tr>\n",
+       "\t<tr><td>Saturday </td><td>8152.976</td><td>37.12097</td><td> 964.2823</td></tr>\n",
+       "\t<tr><td>Sunday   </td><td>6933.231</td><td>34.51240</td><td> 990.2562</td></tr>\n",
+       "\t<tr><td>Thursday </td><td>7405.837</td><td>31.36735</td><td> 961.9932</td></tr>\n",
+       "\t<tr><td>Tuesday  </td><td>8125.007</td><td>37.28947</td><td>1007.3618</td></tr>\n",
+       "\t<tr><td>Wednesday</td><td>7559.373</td><td>33.88000</td><td> 989.4800</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 7 × 4\n",
+       "\\begin{tabular}{llll}\n",
+       " WeekDay & AverageDailySteps & AverageDailyActivity & DailyInactivity\\\\\n",
+       " <chr> & <dbl> & <dbl> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t Friday    & 7448.230 & 32.16667 & 1000.3095\\\\\n",
+       "\t Monday    & 7780.867 & 37.10833 & 1027.9417\\\\\n",
+       "\t Saturday  & 8152.976 & 37.12097 &  964.2823\\\\\n",
+       "\t Sunday    & 6933.231 & 34.51240 &  990.2562\\\\\n",
+       "\t Thursday  & 7405.837 & 31.36735 &  961.9932\\\\\n",
+       "\t Tuesday   & 8125.007 & 37.28947 & 1007.3618\\\\\n",
+       "\t Wednesday & 7559.373 & 33.88000 &  989.4800\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 7 × 4\n",
+       "\n",
+       "| WeekDay &lt;chr&gt; | AverageDailySteps &lt;dbl&gt; | AverageDailyActivity &lt;dbl&gt; | DailyInactivity &lt;dbl&gt; |\n",
+       "|---|---|---|---|\n",
+       "| Friday    | 7448.230 | 32.16667 | 1000.3095 |\n",
+       "| Monday    | 7780.867 | 37.10833 | 1027.9417 |\n",
+       "| Saturday  | 8152.976 | 37.12097 |  964.2823 |\n",
+       "| Sunday    | 6933.231 | 34.51240 |  990.2562 |\n",
+       "| Thursday  | 7405.837 | 31.36735 |  961.9932 |\n",
+       "| Tuesday   | 8125.007 | 37.28947 | 1007.3618 |\n",
+       "| Wednesday | 7559.373 | 33.88000 |  989.4800 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  WeekDay   AverageDailySteps AverageDailyActivity DailyInactivity\n",
+       "1 Friday    7448.230          32.16667             1000.3095      \n",
+       "2 Monday    7780.867          37.10833             1027.9417      \n",
+       "3 Saturday  8152.976          37.12097              964.2823      \n",
+       "4 Sunday    6933.231          34.51240              990.2562      \n",
+       "5 Thursday  7405.837          31.36735              961.9932      \n",
+       "6 Tuesday   8125.007          37.28947             1007.3618      \n",
+       "7 Wednesday 7559.373          33.88000              989.4800      "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "steps_by_weekday"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "3aedde71",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-10T04:48:07.435731Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.434041Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.459614Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.457727Z"
+    },
+    "papermill": {
+     "duration": 0.04112,
+     "end_time": "2024-09-10T04:48:07.462952",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.421832",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "sleep_by_weekday <- daily_sleep %>%\n",
+    "    mutate(WeekDay = weekdays(SleepDay))\n",
+    "\n",
+    "sleep_by_weekday <- sleep_by_weekday %>%\n",
+    "    group_by(WeekDay) %>%\n",
+    "    summarize(TotalMinutesAsleep = mean(TotalMinutesAsleep))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "c7fa7fab",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-10T04:48:07.486892Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.485200Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.514246Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.511295Z"
+    },
+    "papermill": {
+     "duration": 0.044599,
+     "end_time": "2024-09-10T04:48:07.517809",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.473210",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 7 × 2</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>WeekDay</th><th scope=col>TotalMinutesAsleep</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>Friday   </td><td>405.4211</td></tr>\n",
+       "\t<tr><td>Monday   </td><td>418.8298</td></tr>\n",
+       "\t<tr><td>Saturday </td><td>420.8103</td></tr>\n",
+       "\t<tr><td>Sunday   </td><td>452.7455</td></tr>\n",
+       "\t<tr><td>Thursday </td><td>402.3692</td></tr>\n",
+       "\t<tr><td>Tuesday  </td><td>404.5385</td></tr>\n",
+       "\t<tr><td>Wednesday</td><td>434.6818</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 7 × 2\n",
+       "\\begin{tabular}{ll}\n",
+       " WeekDay & TotalMinutesAsleep\\\\\n",
+       " <chr> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t Friday    & 405.4211\\\\\n",
+       "\t Monday    & 418.8298\\\\\n",
+       "\t Saturday  & 420.8103\\\\\n",
+       "\t Sunday    & 452.7455\\\\\n",
+       "\t Thursday  & 402.3692\\\\\n",
+       "\t Tuesday   & 404.5385\\\\\n",
+       "\t Wednesday & 434.6818\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 7 × 2\n",
+       "\n",
+       "| WeekDay &lt;chr&gt; | TotalMinutesAsleep &lt;dbl&gt; |\n",
+       "|---|---|\n",
+       "| Friday    | 405.4211 |\n",
+       "| Monday    | 418.8298 |\n",
+       "| Saturday  | 420.8103 |\n",
+       "| Sunday    | 452.7455 |\n",
+       "| Thursday  | 402.3692 |\n",
+       "| Tuesday   | 404.5385 |\n",
+       "| Wednesday | 434.6818 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  WeekDay   TotalMinutesAsleep\n",
+       "1 Friday    405.4211          \n",
+       "2 Monday    418.8298          \n",
+       "3 Saturday  420.8103          \n",
+       "4 Sunday    452.7455          \n",
+       "5 Thursday  402.3692          \n",
+       "6 Tuesday   404.5385          \n",
+       "7 Wednesday 434.6818          "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "sleep_by_weekday"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "4f16ca1b",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-10T04:48:07.541871Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.540219Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.563966Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.562133Z"
+    },
+    "papermill": {
+     "duration": 0.039244,
+     "end_time": "2024-09-10T04:48:07.567337",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.528093",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "# merging two tables by 'WeekDay' column\n",
+    "sleep_steps_merged <- merge(steps_by_weekday, sleep_by_weekday, by = \"WeekDay\")\n",
+    "\n",
+    "sleep_steps_merged$WeekDay <- ordered(sleep_steps_merged$WeekDay, \n",
+    "                                      levels = c(\"Monday\", \"Tuesday\", \n",
+    "                                                 \"Wednesday\", \"Thursday\", \n",
+    "                                                 \"Friday\", \"Saturday\", \"Sunday\"))\n",
+    "\n",
+    "sleep_steps_merged <- sleep_steps_merged[order(sleep_steps_merged$WeekDay), ]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "cb65f43c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-09-10T04:48:07.591485Z",
+     "iopub.status.busy": "2024-09-10T04:48:07.589818Z",
+     "iopub.status.idle": "2024-09-10T04:48:07.626269Z",
+     "shell.execute_reply": "2024-09-10T04:48:07.616801Z"
+    },
+    "papermill": {
+     "duration": 0.052023,
+     "end_time": "2024-09-10T04:48:07.629695",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.577672",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 7 × 5</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>WeekDay</th><th scope=col>AverageDailySteps</th><th scope=col>AverageDailyActivity</th><th scope=col>DailyInactivity</th><th scope=col>TotalMinutesAsleep</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;ord&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>2</th><td>Monday   </td><td>7780.867</td><td>37.10833</td><td>1027.9417</td><td>418.8298</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>Tuesday  </td><td>8125.007</td><td>37.28947</td><td>1007.3618</td><td>404.5385</td></tr>\n",
+       "\t<tr><th scope=row>7</th><td>Wednesday</td><td>7559.373</td><td>33.88000</td><td> 989.4800</td><td>434.6818</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>Thursday </td><td>7405.837</td><td>31.36735</td><td> 961.9932</td><td>402.3692</td></tr>\n",
+       "\t<tr><th scope=row>1</th><td>Friday   </td><td>7448.230</td><td>32.16667</td><td>1000.3095</td><td>405.4211</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>Saturday </td><td>8152.976</td><td>37.12097</td><td> 964.2823</td><td>420.8103</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>Sunday   </td><td>6933.231</td><td>34.51240</td><td> 990.2562</td><td>452.7455</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 7 × 5\n",
+       "\\begin{tabular}{r|lllll}\n",
+       "  & WeekDay & AverageDailySteps & AverageDailyActivity & DailyInactivity & TotalMinutesAsleep\\\\\n",
+       "  & <ord> & <dbl> & <dbl> & <dbl> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t2 & Monday    & 7780.867 & 37.10833 & 1027.9417 & 418.8298\\\\\n",
+       "\t6 & Tuesday   & 8125.007 & 37.28947 & 1007.3618 & 404.5385\\\\\n",
+       "\t7 & Wednesday & 7559.373 & 33.88000 &  989.4800 & 434.6818\\\\\n",
+       "\t5 & Thursday  & 7405.837 & 31.36735 &  961.9932 & 402.3692\\\\\n",
+       "\t1 & Friday    & 7448.230 & 32.16667 & 1000.3095 & 405.4211\\\\\n",
+       "\t3 & Saturday  & 8152.976 & 37.12097 &  964.2823 & 420.8103\\\\\n",
+       "\t4 & Sunday    & 6933.231 & 34.51240 &  990.2562 & 452.7455\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 7 × 5\n",
+       "\n",
+       "| <!--/--> | WeekDay &lt;ord&gt; | AverageDailySteps &lt;dbl&gt; | AverageDailyActivity &lt;dbl&gt; | DailyInactivity &lt;dbl&gt; | TotalMinutesAsleep &lt;dbl&gt; |\n",
+       "|---|---|---|---|---|---|\n",
+       "| 2 | Monday    | 7780.867 | 37.10833 | 1027.9417 | 418.8298 |\n",
+       "| 6 | Tuesday   | 8125.007 | 37.28947 | 1007.3618 | 404.5385 |\n",
+       "| 7 | Wednesday | 7559.373 | 33.88000 |  989.4800 | 434.6818 |\n",
+       "| 5 | Thursday  | 7405.837 | 31.36735 |  961.9932 | 402.3692 |\n",
+       "| 1 | Friday    | 7448.230 | 32.16667 | 1000.3095 | 405.4211 |\n",
+       "| 3 | Saturday  | 8152.976 | 37.12097 |  964.2823 | 420.8103 |\n",
+       "| 4 | Sunday    | 6933.231 | 34.51240 |  990.2562 | 452.7455 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  WeekDay   AverageDailySteps AverageDailyActivity DailyInactivity\n",
+       "2 Monday    7780.867          37.10833             1027.9417      \n",
+       "6 Tuesday   8125.007          37.28947             1007.3618      \n",
+       "7 Wednesday 7559.373          33.88000              989.4800      \n",
+       "5 Thursday  7405.837          31.36735              961.9932      \n",
+       "1 Friday    7448.230          32.16667             1000.3095      \n",
+       "3 Saturday  8152.976          37.12097              964.2823      \n",
+       "4 Sunday    6933.231          34.51240              990.2562      \n",
+       "  TotalMinutesAsleep\n",
+       "2 418.8298          \n",
+       "6 404.5385          \n",
+       "7 434.6818          \n",
+       "5 402.3692          \n",
+       "1 405.4211          \n",
+       "3 420.8103          \n",
+       "4 452.7455          "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "sleep_steps_merged"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2b5f9e11",
+   "metadata": {
+    "papermill": {
+     "duration": 0.010371,
+     "end_time": "2024-09-10T04:48:07.650658",
+     "exception": false,
+     "start_time": "2024-09-10T04:48:07.640287",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -1382,14 +1691,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 6.494688,
-   "end_time": "2024-09-09T05:17:33.520327",
+   "duration": 6.277243,
+   "end_time": "2024-09-10T04:48:07.783284",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-09-09T05:17:27.025639",
+   "start_time": "2024-09-10T04:48:01.506041",
    "version": "2.6.0"
   }
  },
